@@ -1,0 +1,27 @@
+{
+  "name": "reliability-system",
+  "version": "1.0.0",
+  "description": "Разрабатываемая система предназначенна для автоматизации процессов сбора, хранения, обработки и анализа данных о техническом состоянии и надежности компонентов интегрированной системы безопасности. Основным целевым назначением системы является информационная поддержка принятия решений по техническому обслуживанию, ремонту и модернизации оборудования ИСБ с целью обеспечения требуемого уровня готовности системы и минимизации рисков, связанных с отказами.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolshakovVasilij/reliability-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BolshakovVasilij/reliability-system/issues"
+  },
+  "homepage": "https://github.com/BolshakovVasilij/reliability-system#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7"
+  }
+}
