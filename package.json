@@ -2,17 +2,14 @@
   "name": "reliability-system",
   "version": "0.0.0",
   "private": true,
-  "workspaces":[
-    "apps/*",
-    "packages/*"
-  ],
+  "packageManager": "pnpm@11.0.9",
   "description": "Разрабатываемая система предназначенна для автоматизации процессов сбора, хранения, обработки и анализа данных о техническом состоянии и надежности компонентов интегрированной системы безопасности. Основным целевым назначением системы является информационная поддержка принятия решений по техническому обслуживанию, ремонту и модернизации оборудования ИСБ с целью обеспечения требуемого уровня готовности системы и минимизации рисков, связанных с отказами.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky",
+    "prepare": "husky install",
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "lint": "turbo run lint"
+    "lint": "commitlint --from HEAD~1"
   },
   "engines": {
     "node": ">=20.0.0"
