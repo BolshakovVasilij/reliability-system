@@ -1,13 +1,33 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
+}
+
+enum DeviceType {
+  CAMERA
+  CONTROLLER
+  SENSOR
+}
+
+enum DeviceStatus {
+  ONLINE
+  OFFLINE
+  DEGRADED
+  MAINTENANCE
+}
+
+model SecurityDevice {
+  id            String       @id @default(uuid())
+  name          String
+  type          DeviceType
+  status        DeviceStatus @default(OFFLINE)
+  ipAddress     String?
+  location      String?
+  lastHeartbeat DateTime?
+  metadata      Json?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
 }

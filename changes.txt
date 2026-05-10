@@ -1,0 +1,83 @@
+commit f40a937bdeeb3524607bcad6a2dbfbe77b48368f
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Mon May 4 18:37:10 2026 +0300
+
+    build: create docker-compose.yml
+
+commit df89975b30aeb938f8a0bdb785ecb527b144274e
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Mon May 4 17:47:30 2026 +0300
+
+    build: instal and configure PrismaCLI
+
+commit d1e1a51db4b98e8448ec1f7af5ca6cb51c8b8a72
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Mon May 4 17:18:52 2026 +0300
+
+    build: set Turborepo in root
+
+commit e49f266ca5695201c3857648f902e5c4457b7b4f
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Mon May 4 17:00:58 2026 +0300
+
+    build: remove pnpm to use npm
+
+commit 190b4c3a0fe6750b319e183035976159ecdc827d
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 12:30:34 2026 +0300
+
+    build: create and setting up Turborepo (turbo.json)
+
+commit 6d0108c4dd5c3ae39e63ee02db4dd56498cfd644
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 12:05:04 2026 +0300
+
+    build(pnpm-workspace): create pnpm-workspace.yaml
+
+commit 5f8d7f09d16ceb97d93bb83415bddc0a2fd9a44b
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 11:24:10 2026 +0300
+
+    build: initialization package.json and setting up pnpm
+
+commit 611aa46cfb5e63ac356cab1e40c3fa57510fb5cb
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 09:46:55 2026 +0300
+
+    build(husky): fix commit-msg replace --no with --no-install
+
+commit 34b40f9bdbebf75e12b8a0ed8a314ff58320ebb6
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 09:42:41 2026 +0300
+
+    test: testing the hook without warn
+
+commit d078368181fd121ed41b0a78d747f03950a36641
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Sun May 3 08:59:41 2026 +0300
+
+    build(commitlint,husky):add the ability to control the correctness of commits to the project
+
+commit 73091639bdcf0ee88aa5e44946ca635db4f04bf4
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Fri Apr 24 22:55:17 2026 +0300
+
+    docs: еустовый коммит после настройки
+
+commit d821fdc01e037abf2b5c01b71242b8aa9978687e
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Fri Apr 24 22:18:08 2026 +0300
+
+    docs:добавить информацию о среде разработки Linux Mint
+
+commit eab7f01de10b1a6ed0be48d50144aa5ddaf6d12a
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Tue Apr 21 23:34:10 2026 +0300
+
+    Radme дополнить назначением системы
+
+commit 0f825f81996fdbb8188582c8711fc88a9952d844
+Author: BolshakovVasilij <bovanikoz@gmaill.com>
+Date:   Tue Apr 21 23:18:09 2026 +0300
+
+    first commit
