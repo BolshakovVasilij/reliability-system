@@ -9,8 +9,8 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "js/ts.tsdk.path": "node_modules/typescript/lib",
-  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+ // "js/ts.tsdk.path": "node_modules/typescript/lib",
+  //"js/ts.tsdk.promptToUseWorkspaceVersion": true,
   "terminal.integrated.allowChords": false,
   "typescript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.importModuleSpecifier": "relative",
